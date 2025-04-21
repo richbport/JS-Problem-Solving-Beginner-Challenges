@@ -1,6 +1,6 @@
-function hoursIntoSeconds(hours) {
-    let seconds = hours * 3600;
-    return seconds;
+function hoursIntoSeconds(hour) {
+    return hour * 60 * 60;
+    
 }
 
 console.log(hoursIntoSeconds(2));
