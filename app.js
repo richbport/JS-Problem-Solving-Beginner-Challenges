@@ -3,3 +3,6 @@ function calcTriangleArea(base, height) {
 }
 
 console.log(calcTriangleArea(20, 20));
+
+let bool = !true
+console.log(bool)
