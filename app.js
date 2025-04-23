@@ -18,6 +18,6 @@ if (subscribed === true) {
   console.log('here\'s your chance to log into the account');
 }
 
-let hot = true
+let hot = " "
 
 hot ? console.log('weather is hot') : console.log('weather is cold')
