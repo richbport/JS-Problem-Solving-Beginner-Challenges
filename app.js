@@ -23,7 +23,7 @@ let hot = "";
 hot ? console.log("weather is hot") : console.log("weather is cold");
 
 let cash = 50;
-let price = 40;
+let price = 60;
 let isStoreOpen = true;
 
 let str = cash >= price && isStoreOpen ? "give receipt" : "do not give receipt";
