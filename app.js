@@ -15,9 +15,16 @@ if (subscribed === true) {
 } else if (loggedIn === true) {
   console.log("tell the user to upgrade their subscription");
 } else {
-  console.log('here\'s your chance to log into the account');
+  console.log("here's your chance to log into the account");
 }
 
-let hot = " "
+let hot = "";
 
-hot ? console.log('weather is hot') : console.log('weather is cold')
+hot ? console.log("weather is hot") : console.log("weather is cold");
+
+let cash = 50;
+let price = 40;
+let isStoreOpen = true;
+
+let str = cash >= price && isStoreOpen ? "give receipt" : "do not give receipt";
+console.log(str);
