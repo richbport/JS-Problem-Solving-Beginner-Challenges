@@ -23,8 +23,20 @@ let hot = "";
 hot ? console.log("weather is hot") : console.log("weather is cold");
 
 let cash = 50;
-let price = 60;
+let price = 40;
 let isStoreOpen = true;
 
 let str = cash >= price && isStoreOpen ? "give receipt" : "do not give receipt";
 console.log(str);
+
+// let count = 1;
+// while (count <= 3) {
+//   console.log("this ran");
+//   count = count + 1;
+// }
+
+let count = 1;
+while (count <= 100) {
+  console.log(count);
+  count = count + 1;
+}
