@@ -61,10 +61,17 @@
 //   console.log(str[i]);
 // }
 
-function welcomePersonToFES(name) {
-  console.log(`Welcome to FES, ${name}`);
+// function welcomePersonToFES(name) {
+//   console.log(`Welcome to FES, ${name}`);
+// }
+
+// welcomePersonToFES("Rich");
+// welcomePersonToFES("Zen");
+// welcomePersonToFES("Mitri");
+
+function fn() {
+  return 5;
+  console.log('my function');
 }
 
-welcomePersonToFES("Rich");
-welcomePersonToFES("Zen");
-welcomePersonToFES("Mitri");
+console.log(fn());
