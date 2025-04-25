@@ -41,6 +41,8 @@ console.log(str);
 //   count = count + 1;
 // }
 
-for (let i = 0; i < 3; i++) {
-    console.log(i+1);
-    }
+for (let i = 0; i <= 20; i++) {
+  if (i % 3) {
+    console.log(i);
+  }
+}
