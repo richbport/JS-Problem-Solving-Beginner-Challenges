@@ -55,8 +55,14 @@
 //   }
 // }
 
-const str = "Frontend Simplified";
+// const str = "Frontend Simplified";
 
-for (let i = 0; i < str.length; ++i) {
-  console.log(str[i]);
+// for (let i = 0; i < str.length; ++i) {
+//   console.log(str[i]);
+// }
+
+function welcomePersonToFES(name) {
+  console.log(`Welcome to FES, ${name}`);
 }
+
+welcomePersonToFES("Rich");
