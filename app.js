@@ -66,3 +66,5 @@ function welcomePersonToFES(name) {
 }
 
 welcomePersonToFES("Rich");
+welcomePersonToFES("Zen");
+welcomePersonToFES("Mitri");
