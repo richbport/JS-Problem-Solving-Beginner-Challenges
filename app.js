@@ -1,9 +1,3 @@
-// function sumOfTwoNumbers(num1, num2) {
-//   return num1 / num2;
-// }
+let arr = [20, 30, 40, 50, 100]
 
-const convertCelsiusToFahrenheit = (celsius) => {
-  return celsius * 1.8 + 32;
-};
-
-console.log(convertCelsiusToFahrenheit(0));
+console.log(arr[0])
