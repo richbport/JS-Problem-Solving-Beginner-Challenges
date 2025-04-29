@@ -1,5 +1,5 @@
-let arr = [1, 4, 9, 16];
+let dollars = [1, 5, 10, 3];
 
-let newArr = arr.map((element) => "dog");
-
-console.log(newArr);
+for (let i = 0; i < dollars.length; ++i) {
+  console.log(dollars[i] * 100);
+}
