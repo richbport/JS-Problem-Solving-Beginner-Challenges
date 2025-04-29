@@ -1,11 +1,5 @@
-let grades = ["A+", "A", "FAIL"];
+let arr = [1, 4, 9, 16];
 
-let goodGrades = [];
-
-for (let i = 0; i < grades.length; ++i) {
-  if (grades[i] !== "FAIL") {
-    goodGrades.push(grades[i]);
-  }
-}
-
-console.log(goodGrades);
+arr.map((element) => {
+    console.log(element)
+})
