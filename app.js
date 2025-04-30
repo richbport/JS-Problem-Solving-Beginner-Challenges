@@ -1,5 +1,8 @@
-let dollars = [1, 5, 10, 3];
+let user = {
+  username: "Rich",
+  email: "rich@frontendsimplified.com",
+  subscriptionStatus: "VIP",
+  discordId: "Rich Port#0001",
+};
 
-for (let i = 0; i < dollars.length; ++i) {
-  console.log(dollars[i] * 100);
-}
+console.log(user.username);
