@@ -5,4 +5,4 @@ let user = {
   discordId: "Rich Port#0001",
 };
 
-console.log(user.username);
+console.log(user.username[user.username.length-1]);
