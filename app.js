@@ -18,7 +18,11 @@ let users = [
 ];
 
 function login(email, password) {
-    console.log(email, password);
+  for (let i = 0; i < users.length; ++i) {
+    if (users[i].email === email) {
+      console.log(users[i]);
+    }
+  }
 }
 
-login('rich@frontendsimplified.com', 'test123');
+login("rich@frontendsimplified.com", "test123");
