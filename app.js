@@ -21,12 +21,12 @@ let users = [
     password: "zen123",
     subscriptionStatus: "VIP",
     discordId: "Zen#0001",
-    lessonsCompleted: [0, 1, 2, 3],
+    lessonsCompleted: [0, 1],
   },
 ];
 
 function register(
-  username,
+  name,
   email,
   password,
   subscriptionStatus,
@@ -35,4 +35,13 @@ function register(
 ) {
   console.log(email, password);
 }
-register("zen@frontendsimplified.com", "zen123");
+register(
+  "Zen",
+  "zen@frontendsimplified.com",
+  "zen123",
+  "VIP",
+  "Zen#0001",
+  [0, 1]
+);
+
+console.log(name)
