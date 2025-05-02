@@ -2,7 +2,7 @@ let users = [
   {
     username: "Rich",
     email: "rich@frontendsimplified.com",
-    password: "test23",
+    password: "test123",
     subscriptionStatus: "VIP",
     discordId: "Rich Port#0001",
     lessonsCompleted: [0, 1],
@@ -21,6 +21,12 @@ function login(email, password) {
   for (let i = 0; i < users.length; ++i) {
     if (users[i].email === email) {
       console.log(users[i]);
+      if (users[i].password === password) {
+        console.log("log the user in - details are correct");
+      }
+      else {
+        console.log('password is incorrect - try again')
+      }
     }
   }
 }
