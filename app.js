@@ -33,23 +33,23 @@ function register(
   discordId,
   lessonsCompleted
 ) {
-    let user = {
-        username: name,
-        email: email,
-        password: password,
-        subscriptionStatus: subscriptionStatus,
-        discordId: discordId,
-        lessonsCompleted: lessonsCompleted
-    }
-    console.log(name)
+  let user = {
+    username: name,
+    email: email,
+    password: password,
+    subscriptionStatus: subscriptionStatus,
+    discordId: discordId,
+    lessonsCompleted: lessonsCompleted,
+  };
+  users.push(user);
 }
 register(
   "Zen",
   "zen@frontendsimplified.com",
   "zen123",
   "VIP",
-  "Zen#0001",
+  "Zen#0002",
   [0, 1]
 );
 
-console.log(name)
+console.log(users)
