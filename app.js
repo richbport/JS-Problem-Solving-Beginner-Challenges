@@ -25,24 +25,10 @@ let users = [
   },
 ];
 
-function register(
-  name,
-  email,
-  password,
-  subscriptionStatus,
-  discordId,
-  lessonsCompleted
-) {
-  let user = {
-    username: name,
-    email: email,
-    password: password,
-    subscriptionStatus: subscriptionStatus,
-    discordId: discordId,
-    lessonsCompleted: lessonsCompleted,
-  };
-  users.push(user);
+function register(user) {
+    users.push(user);
 }
+
 register({
   username: "Zen",
   email: "zen@frontendsimplified.com",
