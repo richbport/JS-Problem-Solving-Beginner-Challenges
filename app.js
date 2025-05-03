@@ -1,1 +1,1 @@
-console.log(document.querySelector('#title'))
+console.log(document.querySelector("h1"));
