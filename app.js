@@ -33,7 +33,15 @@ function register(
   discordId,
   lessonsCompleted
 ) {
-  console.log(email, password);
+    let user = {
+        username: name,
+        email: email,
+        password: password,
+        subscriptionStatus: subscriptionStatus,
+        discordId: discordId,
+        lessonsCompleted: lessonsCompleted
+    }
+    console.log(name)
 }
 register(
   "Zen",
