@@ -43,13 +43,13 @@ function register(
   };
   users.push(user);
 }
-register(
-  "Zen",
-  "zen@frontendsimplified.com",
-  "zen123",
-  "VIP",
-  "Zen#0002",
-  [0, 1]
-);
+register({
+  username: "Zen",
+  email: "zen@frontendsimplified.com",
+  password: "zen123",
+  subscriptionStatus: "VIP",
+  discordId: "Zen#0002",
+  lessonsCompleted: [0, 1]
+});
 
 console.log(users)
