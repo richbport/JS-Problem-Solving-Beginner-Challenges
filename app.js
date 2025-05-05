@@ -1,5 +1,5 @@
-let a = 1
+function changeTitleToRed() {
+  console.log("clicked");
+}
 
-a += 2
-
-console.log(a)
+document.querySelector("button").style.fontSize = "32px"
