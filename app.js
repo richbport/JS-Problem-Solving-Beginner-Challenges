@@ -1,5 +1,3 @@
-function changeTitleToRed() {
-  console.log("clicked");
+function toggleDarkMode() {
+  document.querySelector("body").classList.toggle("dark-theme");
 }
-
-document.querySelector("button").style.fontSize = "32px"
