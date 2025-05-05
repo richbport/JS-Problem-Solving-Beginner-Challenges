@@ -1,4 +1,2 @@
-function toggleDarkMode() {
- document.querySelector("body").classList.toggle("dark-theme");
-}
+console.log(fetch("https://jsonplaceholder.typicode.com/users/1"))
 
