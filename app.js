@@ -1,3 +1,5 @@
+const statusRef = document.querySelector(".status")
+
 function getSubscriptionStatus() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
