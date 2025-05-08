@@ -1,4 +1,4 @@
-const statusRef = document.querySelector(".status")
+const statusRef = document.querySelector(".status");
 
 function getSubscriptionStatus() {
   return new Promise((resolve, reject) => {
@@ -8,10 +8,11 @@ function getSubscriptionStatus() {
   });
 }
 
-getSubscriptionStatus().then((response) => console.log(response));
+// getSubscriptionStatus().then((response) => console.log(response));
 
 async function main() {
-  console.log(await getSubscriptionStatus());
+  const status = await getSubscriptionStatus();
+  statusRef.innerHTML = status;
 }
 
 main();
