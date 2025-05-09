@@ -1,5 +1,6 @@
-function addition(num1, num2) {
- return num1 + num2;
+function hoursIntoSeconds(hours) {
+ let seconds = hours * 3600;
+ return seconds;
 }
 
-console.log(addition(3, 5));
+console.log(hoursIntoSeconds(2));
