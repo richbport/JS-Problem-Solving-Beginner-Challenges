@@ -1,9 +1,10 @@
 const statusRef = document.querySelector(".status");
+const videoRef = document.querySelector(".video")
 
 function getSubscriptionStatus() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("VIP");
+      resolve(null);
     }, 2000);
   });
 }
