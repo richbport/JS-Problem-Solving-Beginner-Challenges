@@ -1,5 +1,5 @@
-function appendFrontend(string) {
-  return string + " Frontend";
+function appendFrontend(number) {
+  return 4 + number;
 }
 
-console.log(appendFrontend("Apple"));
+console.log(appendFrontend("1"));
