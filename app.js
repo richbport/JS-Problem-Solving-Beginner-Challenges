@@ -1,5 +1,5 @@
-function appendFrontend(number) {
-  return 4 + number;
+function appendFrontend(num) {
+  return 4 + num;
 }
 
-console.log(appendFrontend("1"));
+console.log(appendFrontend(1));
