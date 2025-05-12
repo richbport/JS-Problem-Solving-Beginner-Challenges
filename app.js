@@ -1,9 +1,5 @@
-function sumGreaterThan100(num1, num2) {
-  if (num1 + num2 > 100) {
-    return true;
-  }
-  console.log("this ran@@@@")
-  return false;
+function lessThanOrEqualToZero(num1) {
+  return num1 <= 0;
 }
 
-console.log(sumGreaterThan100(50, 10));
+console.log(lessThanOrEqualToZero(-2));
