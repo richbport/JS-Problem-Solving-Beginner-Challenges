@@ -1,9 +1,5 @@
 function oppositeBoolean(bool) {
-  if (bool === false) {
-    return true;
-  } else {
-    return false;
-  }
+  return !bool;
 }
 
-console.log(oppositeBoolean(true));
+console.log(oppositeBoolean(false));
