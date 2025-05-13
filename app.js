@@ -1,5 +1,10 @@
-function oppositeBoolean(bool) {
-  return !bool;
-}
+function isNotZero(bool) {
+  if (bool != 0) {
+    return true;
+  }
+    return false;
 
-console.log(oppositeBoolean(false));
+
+// return bool != 0;
+}
+console.log(isNotZero(5));
