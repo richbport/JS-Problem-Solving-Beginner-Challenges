@@ -1,7 +1,4 @@
-function isNotZero(num) {
-  if (num !== 0) {
-    return true;
-  }
-  return false;
+function calcRemainder(num1, num2) {
+ return num1 % num2;
 }
-console.log(isNotZero(""));
+console.log(calcRemainder(9, 8));
