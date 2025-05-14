@@ -1,4 +1,7 @@
-function isNotZero(bool) {
-return bool != 0;
+function isNotZero(num) {
+  if (num !== 0) {
+    return true;
+  }
+  return false;
 }
-console.log(isNotZero(5));
+console.log(isNotZero(""));
