@@ -1,4 +1,5 @@
-function isOdd(num) {
-  return num % 2 !== 0
+function booleanInteger(num) {
+   const num2 = num % 2 === 0 ? 1 : -1;
+   return num2;
 }
-console.log(isOdd(5));
+console.log(booleanInteger(14));
