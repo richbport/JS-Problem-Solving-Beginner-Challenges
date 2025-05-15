@@ -1,4 +1,4 @@
-function booleanInteger(num) {
-   return num % 2 === 0 ? 1 : -1;
+function isLoggedInAndSubscribed(loggedIn, subcribed) {
+   return 
 }
-console.log(booleanInteger(14));
+console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"));
