@@ -1,4 +1,7 @@
 function isLoggedInAndSubscribed(loggedIn, subcribed) {
-   return 
+   if (loggedIn === "LOGGED_IN" && subscribed === "SUBCRIBED") {
+      return true;
+   }
+   return false;
 }
 console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"));
